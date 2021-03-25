@@ -1,0 +1,5 @@
+D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\bin\Debug\net5.0\MISA.QLTH.ApplicationCore.dll
+D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.csprojAssemblyReference.cache
+D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.AssemblyInfoInputs.cache
+D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.AssemblyInfo.cs
