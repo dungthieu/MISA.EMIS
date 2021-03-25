@@ -143,6 +143,9 @@
   <data name="NotExsits" xml:space="preserve">
     <value>Không tồn tại.</value>
   </data>
+  <data name="ParameterFail" xml:space="preserve">
+    <value>Không hợp lệ</value>
+  </data>
   <data name="Success" xml:space="preserve">
     <value>Thành công !</value>
   </data>

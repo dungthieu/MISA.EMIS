@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,36 +27,34 @@ namespace MISA.QLTH.ApplicationCore.Entity
         [DisplayName("Tên khoản thu")]
         public string SurchargeName { get; set; }
 
-
-
-        /// <summary>
-        /// Tên nhóm khoản thu
-        /// </summary>
-        public string SurchargeGroupName { get; set; }
-
         /// <summary>
         /// Id nhóm khoản thu
         /// </summary>
         public Guid SurchargeGroupId { get; set; }
 
         /// <summary>
+        /// nhom khoan thu(khong dau)
+        /// </summary>
+        public string SurchargeGroupName { get; set; }
+        /// <summary>
         /// Mức thu
         /// </summary>
         [Required]
+        [Value]
         [DisplayName("Mức thu")]
         public decimal SurchargeLevel { get; set; }
 
         /// <summary>
-        /// Phạm vi thu
+        /// id phạm vi thu
         /// </summary>
         [Required]
         [DisplayName("Phạm vi thu")]
-        public string GroupClassName { get; set; }
+        public Guid GroupClassId { get; set; }
 
         /// <summary>
-        /// id phạm vi thu
+        /// phạm vi thu
         /// </summary>
-        public Guid GroupClassId { get; set; }
+        public string GroupClassName { get; set; }
 
         /// <summary>
         /// Tính chất

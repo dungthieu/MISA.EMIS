@@ -28,6 +28,14 @@ namespace MISA.QLTH.ApplicationCore.Entity
         }
     }
     /// <summary>
+    /// 
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Property)]
+    public class Value : Attribute
+    {
+
+    }
+    /// <summary>
     /// check trường không được để trống
     /// </summary>
     [AttributeUsage(AttributeTargets.Property)]

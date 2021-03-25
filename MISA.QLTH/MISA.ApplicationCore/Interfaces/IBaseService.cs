@@ -21,13 +21,13 @@ namespace MISA.QLTH.ApplicationCore.Interfaces
         /// lấy toàn bộ dữ liệu 
         /// </summary>
         /// <returns> trả về 1 chuỗi kết quả  chứa các thông tin về việc lấy toàn bộ </returns>
-        ServiceResult getAll();
+        ServiceResult GetAll();
 
         /// <summary>
         /// lay gia tri theo id
         /// </summary>
         /// <returns></returns>
-        ServiceResult getById(Guid id);
+        ServiceResult GetById(Guid id);
 
         /// <summary>
         /// tạo mới 1 cột dựa vào các tham số truyền vào.
@@ -49,5 +49,19 @@ namespace MISA.QLTH.ApplicationCore.Interfaces
         /// <param name="id">khoá chính của bản ghi đó</param>
         /// <returns>trả về 1 chuỗi kết quả chứa các thông tin về việc xoá</returns>
         ServiceResult Delete(Guid id);
+
+        /// <summary>
+        /// xoá 1 bản ghi 
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns>trả về 1 chuỗi kết quả chứa các thông tin về việc xoá</returns>
+        ServiceResult Delete(T entity);
+
+        /// <summary>
+        /// xoa nhieu ban ghi
+        /// </summary>
+        /// <param name="entities"></param>
+        /// <returns></returns>
+        ServiceResult DeleteRange(List<T> entities);
     }
 }

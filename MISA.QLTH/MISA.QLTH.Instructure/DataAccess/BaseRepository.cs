@@ -7,6 +7,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace MISA.QLTH.Instructure.DataAccess
 {
@@ -88,7 +89,7 @@ namespace MISA.QLTH.Instructure.DataAccess
 
         public int Delete(Guid id)
         {
-            procName = $"Proc_Delete{GetName()}";
+            procName = $"Proc_Delete{GetName()}ById";
             var Obj = _dbConnection.Execute(procName, param: GetDynamicParams(id), commandType: CommandType.StoredProcedure);
             return Obj;
         }
@@ -99,9 +100,38 @@ namespace MISA.QLTH.Instructure.DataAccess
             var obj = _dbConnection.Query<T>(query, commandType: CommandType.Text).FirstOrDefault();
             return obj;
         }
-        public int DeleteRange(List<T> entities)
+
+        public int Delete(T entity)
         {
-            return 5;
+            procName = $"Proc_Delete{GetName()}ByObject";
+            var Obj = _dbConnection.Execute(procName, entity, commandType: CommandType.StoredProcedure);
+            return Obj;
+        }
+        public bool DeleteRange(List<T> entities)
+        {
+            using (TransactionScope transactionScope = new TransactionScope(TransactionScopeOption.Required))
+            {
+                try
+                {
+                    foreach (var entity in entities)
+                    {
+                        procName = $"Proc_Delete{GetName()}ByObject";
+                        var Obj = _dbConnection.Execute(procName, entity, commandType: CommandType.StoredProcedure);
+                        if (Obj <= 0)
+                        {
+                            transactionScope.Dispose();
+                            return false;
+                        }
+                    }
+                    transactionScope.Complete();
+                    return true;
+                }
+                catch
+                {
+                    transactionScope.Dispose();
+                    return false;
+                }
+            }
         }
 
     }

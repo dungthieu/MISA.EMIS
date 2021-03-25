@@ -50,7 +50,7 @@ namespace MISA.QLTH.ApplicationCore.Interfaces
         int Insert(T entity);
 
         /// <summary>
-        /// xoá bản ghi 
+        /// xoá bản ghi theo tham số id
         /// </summary>
         /// <param name="id">giá trị của 1 khoá chính của bảng</param>
         /// <returns>trả về số bản ghi bị thay đổi (xoá)</returns>
@@ -65,12 +65,18 @@ namespace MISA.QLTH.ApplicationCore.Interfaces
         T GetEntityByProperty(string propertyName, object propertyValue);
 
         /// <summary>
+        /// Xoá  bản ghi  
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        int Delete(T entity);
+
+        /// <summary>
         /// Xoá nhièu bản ghi cùng 1 lúc
         /// </summary>
         /// <param name="entities"> 1 danh dách các giá trị</param>
         /// <returns> số bản ghi bị xoá </returns>
-
-        int DeleteRange(List<T> entities);
+        bool DeleteRange(List<T> entities);
 
 
     }

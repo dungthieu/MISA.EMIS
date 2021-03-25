@@ -133,6 +133,15 @@ namespace MISA.QLTH.ApplicationCore.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Không hợp lệ.
+        /// </summary>
+        internal static string ParameterFail {
+            get {
+                return ResourceManager.GetString("ParameterFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Thành công !.
         /// </summary>
         internal static string Success {
