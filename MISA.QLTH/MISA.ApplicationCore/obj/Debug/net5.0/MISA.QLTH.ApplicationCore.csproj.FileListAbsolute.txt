@@ -1,0 +1,7 @@
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.csprojAssemblyReference.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.Properties.Resources.resources
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.csproj.GenerateResource.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.AssemblyInfoInputs.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.AssemblyInfo.cs
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.csproj.CoreCompileInputs.cache

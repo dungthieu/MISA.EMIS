@@ -1,0 +1,6 @@
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.API\obj\Debug\net5.0\MISA.QLTH.API.csprojAssemblyReference.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.API\obj\Debug\net5.0\MISA.QLTH.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.API\obj\Debug\net5.0\MISA.QLTH.API.AssemblyInfoInputs.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.API\obj\Debug\net5.0\MISA.QLTH.API.AssemblyInfo.cs
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.API\obj\Debug\net5.0\MISA.QLTH.API.csproj.CoreCompileInputs.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.API\obj\Debug\net5.0\MISA.QLTH.API.MvcApplicationPartsAssemblyInfo.cache

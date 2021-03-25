@@ -3,3 +3,8 @@ D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructur
 D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.AssemblyInfoInputs.cache
 D:\MISA.QL\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.AssemblyInfo.cs
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.csprojAssemblyReference.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.AssemblyInfoInputs.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.AssemblyInfo.cs
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.QLTH.Instructure\obj\Debug\net5.0\MISA.QLTH.Instructure.csproj.CoreCompileInputs.cache
