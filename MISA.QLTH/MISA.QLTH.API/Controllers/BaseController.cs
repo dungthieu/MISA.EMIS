@@ -12,7 +12,7 @@ namespace MISA.QLTH.API.Controllers
     [ApiController]
     public class BaseController<T> : ControllerBase
     {
-       public  readonly IBaseService<T> _baseService;
+        public readonly IBaseService<T> _baseService;
 
         public BaseController(IBaseService<T> baseService)
         {
@@ -23,7 +23,7 @@ namespace MISA.QLTH.API.Controllers
         public IActionResult Get()
         {
             var result = _baseService.GetAll();
-            
+
             return StatusCode((int)result.MISACode, result);
         }
 

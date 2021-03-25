@@ -47,7 +47,7 @@ namespace MISA.QLTH.ApplicationCore.Entity
         /// <summary>
         /// id phạm vi thu
         /// </summary>
-        [Required]
+        //[Required]
         [DisplayName("Phạm vi thu")]
         public Guid GroupClassId { get; set; }
 

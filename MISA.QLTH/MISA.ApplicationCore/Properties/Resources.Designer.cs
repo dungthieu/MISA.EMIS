@@ -115,6 +115,15 @@ namespace MISA.QLTH.ApplicationCore.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Đây là khoản thu mặc định của hệ thống, bạn không thể xóa !.
+        /// </summary>
+        internal static string IsObligatory {
+            get {
+                return ResourceManager.GetString("IsObligatory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Không được để trống !.
         /// </summary>
         internal static string NoRequired {
