@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj": {}
+    "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj": {}
   },
   "projects": {
-    "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj": {
+    "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj",
+        "projectUniqueName": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj",
         "projectName": "MISA.QLTH.ApplicationCore",
-        "projectPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\obj\\",
+        "projectPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\ttdung\\.nuget\\packages\\",
+        "outputPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ttdung\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,25 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj": {
+    "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj",
+        "projectUniqueName": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj",
         "projectName": "MISA.QLTH.API",
-        "projectPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.API\\obj\\",
+        "projectPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.API\\MISA.QLTH.API.csproj",
+        "packagesPath": "C:\\Users\\ttdung\\.nuget\\packages\\",
+        "outputPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ttdung\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,11 +82,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj": {
-                "projectPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj"
+              "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj": {
+                "projectPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj"
               },
-              "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj": {
-                "projectPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj"
+              "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj": {
+                "projectPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj"
               }
             }
           }
@@ -132,25 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj": {
+    "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj",
+        "projectUniqueName": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj",
         "projectName": "MISA.QLTH.Instructure",
-        "projectPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.QLTH.Instructure\\obj\\",
+        "projectPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.Instructure\\MISA.QLTH.Instructure.csproj",
+        "packagesPath": "C:\\Users\\ttdung\\.nuget\\packages\\",
+        "outputPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.QLTH.Instructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ttdung\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,8 +152,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj": {
-                "projectPath": "D:\\MISA.QL\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj"
+              "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj": {
+                "projectPath": "F:\\1dungfake2\\MISA.EMIS\\MISA.QLTH\\MISA.ApplicationCore\\MISA.QLTH.ApplicationCore.csproj"
               }
             }
           }
@@ -204,7 +192,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

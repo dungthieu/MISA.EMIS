@@ -12,3 +12,17 @@ D:\MISA.QL\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.Application
 D:\MISA.QL\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.dll
 D:\MISA.QL\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\ref\MISA.QLTH.ApplicationCore.dll
 D:\MISA.QL\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.pdb
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\bin\Debug\net5.0\MISA.QLTH.ApplicationCore.deps.json
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\bin\Debug\net5.0\MISA.QLTH.ApplicationCore.dll
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\bin\Debug\net5.0\ref\MISA.QLTH.ApplicationCore.dll
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\bin\Debug\net5.0\MISA.QLTH.ApplicationCore.pdb
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.csprojAssemblyReference.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.Properties.Resources.resources
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.csproj.GenerateResource.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.AssemblyInfoInputs.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.AssemblyInfo.cs
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.dll
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\ref\MISA.QLTH.ApplicationCore.dll
+F:\1dungfake2\MISA.EMIS\MISA.QLTH\MISA.ApplicationCore\obj\Debug\net5.0\MISA.QLTH.ApplicationCore.pdb

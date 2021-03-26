@@ -136,6 +136,9 @@
   <data name="Error" xml:space="preserve">
     <value>Thất bại !</value>
   </data>
+  <data name="IsObligatory" xml:space="preserve">
+    <value>Đây là khoản thu mặc định của hệ thống, bạn không thể xóa !</value>
+  </data>
   <data name="NoRequired" xml:space="preserve">
     <value>Không được để trống !</value>
     <comment>mesage cảnh bảo để trống ô nhập liệu</comment>

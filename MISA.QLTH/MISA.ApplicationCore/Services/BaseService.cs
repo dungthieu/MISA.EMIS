@@ -16,7 +16,7 @@ namespace MISA.QLTH.ApplicationCore.Services
     /// DateTime: 23/3/2021
     public class BaseService<T> : IBaseService<T>
     {
-       public readonly IBaseRepository<T> _baseRepository;
+        public readonly IBaseRepository<T> _baseRepository;
         protected ServiceResult _serviceResult;
         public BaseService(IBaseRepository<T> baseRepository)
         {
@@ -47,7 +47,7 @@ namespace MISA.QLTH.ApplicationCore.Services
 
                 // lấy value của property
                 var propertyValue = property.GetValue(entity);
-                if(property.IsDefined(typeof(Value), false))
+                if (property.IsDefined(typeof(Value), false))
                 {
                     if ((decimal)propertyValue <= (decimal)0.0000)
                     {
@@ -71,7 +71,7 @@ namespace MISA.QLTH.ApplicationCore.Services
                 }
 
                 //check các property có thuộc tính required
-                if (property.IsDefined(typeof(CheckDuplicated), false) && (type == checkvalue.Create))
+                if (property.IsDefined(typeof(CheckDuplicated), false))
                 {
                     // Kiểm tra xem dữu liệu nhập vào có tồn tại hay không
                     var checkaDuplicate = _baseRepository.GetEntityByProperty(property.Name, property.GetValue(entity));
@@ -100,21 +100,25 @@ namespace MISA.QLTH.ApplicationCore.Services
             try
             {
                 var request = Validate(entity).MISACode;
+                _serviceResult.Data = _baseRepository.Insert(entity);
 
-                var checkRequestValidate = Validate(entity).checkValue;
-
-                if (request != MISACode.BadRequest && checkRequestValidate == checkvalue.Create && _baseRepository.Insert(entity)>0)
-                {
-                    _serviceResult.Data = _baseRepository.Insert(entity);
-
+                if (request != MISACode.BadRequest && (int)_serviceResult.Data > 0)
+                { 
                     _serviceResult.MISACode = MISACode.Created;
 
                     _serviceResult.Message = Properties.Resources.CreateSuccess;
                 }
+                else
+                {
+                    _serviceResult.MISACode = MISACode.BadRequest;
+                    _serviceResult.Message = Properties.Resources.Createfail;
+                }
+
             }
             catch (Exception ex)
             {
                 _serviceResult.Data = ex.Message;
+                _serviceResult.MISACode = MISACode.BadRequest;
                 _serviceResult.Message = Properties.Resources.Createfail;
             }
             return _serviceResult;
@@ -129,12 +133,17 @@ namespace MISA.QLTH.ApplicationCore.Services
 
                 _serviceResult = Validate(entity);
 
-                if (request != MISACode.BadRequest && _baseRepository.Update(entity)>0)
+                if (request != MISACode.BadRequest && _baseRepository.Update(entity) > 0)
                 {
                     _serviceResult.Data = _baseRepository.Update(entity);
                     _serviceResult.MISACode = MISACode.Success;
                     _serviceResult.Message = Properties.Resources.UpdateSuccess;
-                    return _serviceResult;
+                }
+                else
+                {
+
+                    _serviceResult.MISACode = MISACode.BadRequest;
+                    _serviceResult.Message = Properties.Resources.UpdateFail;
                 }
             }
             catch (Exception ex)
@@ -151,8 +160,17 @@ namespace MISA.QLTH.ApplicationCore.Services
             if (checkDelete != null)
             {
                 _serviceResult.Data = _baseRepository.Delete(id);
-                _serviceResult.MISACode = MISACode.Success;
-                _serviceResult.Message = Properties.Resources.DeleteSuccess;
+                if ((int)_serviceResult.Data > 0)
+                {
+                    _serviceResult.MISACode = MISACode.Success;
+                    _serviceResult.Message = Properties.Resources.DeleteSuccess;
+                }
+                else
+                {
+                    _serviceResult.MISACode = MISACode.BadRequest;
+                    _serviceResult.Message = Properties.Resources.IsObligatory;
+                }
+
 
             }
             else
@@ -197,8 +215,7 @@ namespace MISA.QLTH.ApplicationCore.Services
             else
             {
                 _serviceResult.MISACode = MISACode.BadRequest;
-                _serviceResult.Data = Properties.Resources.NotExsits;
-                _serviceResult.Message = Properties.Resources.DeleteFail;
+                _serviceResult.Message = Properties.Resources.IsObligatory;
             }
             return _serviceResult;
         }
@@ -215,8 +232,7 @@ namespace MISA.QLTH.ApplicationCore.Services
             }
             else
             {
-                _serviceResult.MISACode = MISACode.BadRequest;
-                _serviceResult.Data = Properties.Resources.NotExsits;
+                _serviceResult.MISACode = MISACode.BadRequest;    
                 _serviceResult.Message = Properties.Resources.DeleteFail;
             }
             return _serviceResult;
